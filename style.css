@@ -1,0 +1,60 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: "Manrope", sans-serif;
+}
+
+header{
+	height: 105px;
+	background-color: #fff;
+	display: flex;
+	padding: 0 50px;
+	justify-content: space-between;
+}
+
+.header-logo, .header-phone, .header-navbar{
+	display: flex;
+	align-items: center;
+}
+.header-logo img{
+	margin-right: 10px;
+}
+
+.header-phone{
+	margin-left: 30px;
+}
+
+.header-navbar ul{
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+}
+
+.header-navbar ul li{
+	margin-left: 30px;
+}
+
+.header-navbar__contact-us{
+	display: flex;
+	margin-left: 50px;
+	align-items: center;
+}
+.header-navbar__reservation{
+	display: flex;
+	align-items: center;
+	background-color: #5C8692;
+	margin-left:30px;
+	padding: 20px 35px;
+}
+.header-link__reservation{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 13px;
+	text-decoration: none;
+	margin-left:10px;
+}
+
+.preview-block{
+	height: 885px;
+	background-color: #EBF3F5;
+}
